@@ -7,6 +7,5 @@ eureka:
   instance:
     hostname: localhost
 spring:
-  profiles:
-    group:
-      <group>: dev, auth
+  config:
+    use-legacy-processing: true
